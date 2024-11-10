@@ -2,7 +2,7 @@
   "banner": [
     {
       "id": "b1",
-      "img": "/assets/img/slider/2.jpg",
+      "img": "/assets/img/slider/opacity1.webp",
       "heading": "Produkcja betonu | Transport | Wypożyczalnia | Sprzedaż",
       "motive": {
         "m1": "Nasze usługi",
@@ -14,7 +14,7 @@
     },
     {
       "id": "b2",
-      "img": "/assets/img/slider/3.jpg",
+      "img": "/assets/img/slider/opacity2.webp",
       "heading": "Produkcja betonu | Transport | Wypożyczalnia | Sprzedaż",
       "motive": {
         "m1": "Nasze usługi",
@@ -26,7 +26,7 @@
     },
     {
       "id": "b3",
-      "img": "/assets/img/slider/8.jpg",
+      "img": "/assets/img/slider/opacity3.webp",
       "heading": "Produkcja betonu | Transport | Wypożyczalnia | Sprzedaż",
       "motive": {
         "m1": "Nasze usługi",
