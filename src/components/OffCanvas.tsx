@@ -37,15 +37,15 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
             <p>
               <i className="las la-rocket"></i>
               <span>
-                Australia- 175 24th Street, Office 3567 Melbourn, EA 265
+                al.Legionów 19, 08-400, Garwolin
               </span>
             </p>
             <p>
-              <i className="las la-phone"></i> <span>+18-4675826</span>
+              <i className="las la-phone"></i> <span> +48 530-114-220</span>
             </p>
             <p>
               <i className="las la-envelope-open"></i>
-              <span>info@industrify.com</span>
+              <span>zurb.parol@op.pl</span>
             </p>
           </div>
         </div>

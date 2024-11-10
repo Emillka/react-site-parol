@@ -8,28 +8,17 @@ const HeaderTop: React.FC = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="contact-info">
-                <i className="las la-envelope"></i> info@industrify.com |
-                <i className="las la-map-marker"></i> 3567 Melbourn, EA 265,
-                Australia
+                <a href="mailto:zurb.parol@op.pl" style = {{color: 'white', fontSize: '16px'}}>
+                  <i className="las la-envelope"></i> zurb.parol@op.pl
+                </a>
+                <i className="las la-map-marker"></i> al.Legionów 19, 08-400, Garwolin&nbsp; 
+                <i className="las la-phone"></i>+48 530-114-220
+             
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 text-end">
               <div className="site-info">
-                Turning big ideas into great products!
-                <div className="social-area">
-                  <a href="">
-                    <i className="lab la-facebook-f"></i>
-                  </a>
-                  <a href="">
-                    <i className="lab la-instagram"></i>
-                  </a>
-                  <a href="">
-                    <i className="lab la-twitter"></i>
-                  </a>
-                  <a href="">
-                    <i className="la la-skype"></i>
-                  </a>
-                </div>
+              Solidność | Precyzja | Doświadczenie
               </div>
             </div>
           </div>

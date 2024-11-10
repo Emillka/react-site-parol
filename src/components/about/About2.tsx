@@ -79,7 +79,7 @@ const About2: React.FC = () => {
                       </div>
                       <div className="col-lg-6 col-md-6">
                         <Link to="/about" className="main-btn">
-                          Learn More
+                          Czytaj więcej
                         </Link>
                       </div>
                     </div>

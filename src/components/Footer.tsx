@@ -19,14 +19,14 @@ const Footer: React.FC = () => {
             <div className="col-lg-2 col-md-6">
               <h5>Office</h5>
               <p>
-                Australia- <br />
-                175 24th Street, Office 3567 Melbourn, EA 265
+               al.Legionów 19 <br />
+               08-400, Garwolin
               </p>
               <div className="company-email">
-                <a href="#">info@industrify.com</a>
+                <a href="#">zurb.parol@op.pl</a>
               </div>
               <div className="phone-number">
-                <p>+18-4675826</p>
+                <p> +48 530-114-220</p>
               </div>
             </div>
             <div className="col-lg-2 offset-lg-1 col-md-6 com-sm-12">
