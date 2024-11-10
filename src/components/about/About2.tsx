@@ -24,25 +24,19 @@ const About2: React.FC = () => {
             >
               <div className="about-content-area">
                 <div className="section-title">
-                  <h6>About Us</h6>
+                  <h6>O nas</h6>
                   <h2>
-                    We're leading <b>Industrial Solution</b> in Worldwide
+                  <b> Doświadczenie</b> od 1995 roku
                   </h2>
                 </div>
 
                 <p>
-                  We are build construction site lorem ipsum dolor sit amet,
-                  consectetur elit. Ea enim et, similique,minus soluta ducimus.
-                  The Most Eminent factory and Industrial Consultant service
-                  provider. Branches in USA and overseas.
+                PAROL Zakład Usługowo-Remontowo Budowlany Jerzy Parol to firma z wieloletnim doświadczeniem, działająca na rynku od 1995 roku. Specjalizujemy się w kompleksowych usługach remontowo-budowlanych, obejmujących m.in. budowę budynków mieszkalnych i niemieszkalnych, roboty drogowe, prace ziemne, rozbiórki oraz instalacje elektryczne. 
                 </p>
                 <br />
 
                 <p>
-                  industrify is famous construction factory to build a company
-                  that can compete with large construction firms while operating
-                  with the flexibility and customer-focus of a small, family-run
-                  business.
+                Dzięki szerokiemu zapleczu technicznemu oferujemy wynajem nowoczesnego sprzętu budowlanego, takiego jak dźwigi, koparki czy wózki podnośnikowe, dopasowanego do potrzeb każdego projektu. Naszym priorytetem jest terminowość, jakość oraz zadowolenie Klientów, którzy są najlepszą wizytówką naszej firmy. Zapraszamy do współpracy!
                 </p>
 
                 <ul className="about-key mt-30">

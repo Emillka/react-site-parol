@@ -15,25 +15,23 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
         </div>
         <div className="logo-side mb-30">
           <a href="index.html" className="site-logo-2">
-            <img src="/assets/img/logo-white.png" alt="" />
+            <img src="/assets/img/logo.png" alt="" />
           </a>
         </div>
         <div className="side-info">
           <div className="contact-list mb-40">
             <h4>O nas</h4>
             <p>
-              We must explain to you how all seds this mistakens idea off
-              denouncing pleasures and praising pain was born and I will give
-              you a completed accounts of the system and expound.
+            Firma PAROL Zakład Usługowo-Remontowo Budowlany Jerzy Parol oferuje kompleksowe usługi remontowo-budowlane w Garwolinie od 1995 roku, specjalizując się w budowie obiektów, pracach drogowych, ziemnych oraz rozbiórkach.
             </p>
             <div className="mt-30 mb-30">
               <a href="contact.html" className="main-btn">
-                Get In Touch
+                Formularz kontaktowy
               </a>
             </div>
           </div>
           <div className="contact-list mb-40">
-            <h4>Contact Info</h4>
+            <h4>Kontakt</h4>
             <p>
               <i className="las la-rocket"></i>
               <span>
