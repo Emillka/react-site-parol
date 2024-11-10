@@ -26,7 +26,8 @@ const About2: React.FC = () => {
                 <div className="section-title">
                   <h6>O nas</h6>
                   <h2>
-                  <b> Doświadczenie</b> od 1995 roku
+                    We're leading <b>Industrial Solution</b> in Worldwide
+                    
                   </h2>
                 </div>
 
