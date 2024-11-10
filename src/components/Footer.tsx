@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <ul>
                 <li>
                   <Link to="/about">About</Link>
-                  <Link to="/services">Services</Link>
+                  <Link to="/uslugi">Usługi</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/pricing">Pricing</Link>
                   <Link to="/faq"> FAQ</Link>

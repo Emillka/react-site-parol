@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import {
   Home1,
   Home2,
+  ProdukcjaBetonu,
+  RobotyZiemne,
+  RobotyDrogowe,
   About,
   Contact,
   Projects,
@@ -32,7 +35,22 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/contact",
+        path: "/produkcja-betonu",
+        element: <ProdukcjaBetonu />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/roboty-ziemne",
+        element: <RobotyZiemne />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/roboty-drogowe",
+        element: <RobotyDrogowe />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/kontakt",
         element: <Contact />,
         errorElement: <ErrorPage />,
       },
@@ -57,7 +75,7 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/services",
+        path: "/uslugi",
         element: <Services />,
         errorElement: <ErrorPage />,
       },

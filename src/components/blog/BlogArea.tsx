@@ -126,7 +126,7 @@ const BlogArea: React.FC = () => {
                 <a href="#">Factory Build (18)</a>
                 <a href="#">Electrical (32)</a>
                 <a href="#"> Interior (13)</a>
-                <a href="#">Petrolieum (04)</a>
+                <a href="#">cos tam (04)</a>
               </div>
               <div className="popular-tag">
                 <h5>Popular Tags</h5>

@@ -29,8 +29,8 @@
         },
         {
           "id": "p2",
-          "text": "Services",
-          "link": "/services"
+          "text": "Usługi",
+          "link": "/uslugi"
         },
         {
           "id": "p3",
@@ -53,7 +53,23 @@
       "id": "m3",
       "text": "Services",
       "link": "#",
-      "dropdown": []
+      "dropdown": [
+      {
+        "id": "1",
+        "text": "Produkcja betonu",
+        "link": "/produkcja-betonu"
+      },
+      {
+        "id": "h2",
+        "text": "Roboty Ziemne",
+        "link": "/roboty-ziemne"
+      },
+      {
+        "id": "h3",
+        "text": "Roboty drogowe",
+        "link": "/roboty-drogowe"
+      }
+    ]
     },
     {
       "id": "m4",
@@ -91,8 +107,8 @@
     },
     {
       "id": "m6",
-      "text": "Contact Us",
-      "link": "/contact",
+      "text": "Kontakt",
+      "link": "/kontakt",
       "dropdown": []
     }
   ]

@@ -6,11 +6,7 @@ import {
   Promo,
   About1,
   Service1,
-  Project1,
-  Clients,
-  Testimonial1,
   ProjectCounter,
-  Blog1,
 } from "../components";
 
 const Home1: React.FC = () => {
@@ -22,11 +18,7 @@ const Home1: React.FC = () => {
       <Promo />
       <About1 />
       <Service1 />
-      <Project1 type={false} />
-      <Clients />
-      <Testimonial1 />
       <ProjectCounter type={true} />
-      <Blog1 type={false} />
     </React.Fragment>
   );
 };

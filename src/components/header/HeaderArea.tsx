@@ -59,64 +59,51 @@ const HeaderArea: React.FC = () => {
                               className={`nav-link ${
                                 activeMenu === "home" ? "active" : ""
                               }`}
-                              href="#"
+                              href="/"
                             >
-                              Home
+                              Strona Główna
                               <span className="sub-nav-toggler"> </span>
                             </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/">Home Page 01</Link>
-                              </li>
-                              <li>
-                                <Link to="/index-2">Home Page 02</Link>
-                              </li>
-                            </ul>
                           </li>
 
-                          <li className="nav-item">
-                            <a
-                              onMouseEnter={() => setActiveMenu("pages")}
+
+                          <li className="nav-item smooth-menu">
+                          <a
+                              onMouseEnter={() => setActiveMenu("services")}
                               className={`nav-link ${
-                                activeMenu === "pages" ? "active" : ""
+                                activeMenu === "services" ? "active" : ""
                               }`}
                               href="#"
                             >
-                              Pages
+                              Usługi
                               <span className="sub-nav-toggler"> </span>
                             </a>
                             <ul className="sub-menu">
                               <li>
-                                <Link to="/about">About</Link>
+                                <Link to="/produkcja-betonu">Produkcja betonu</Link>
                               </li>
                               <li>
-                                <Link to="/services">Services</Link>
+                                <Link to="/roboty-ziemne">Roboty ziemne</Link>
                               </li>
                               <li>
-                                <Link to="/team">Team</Link>
-                              </li>
-                              <li>
-                                <Link to="/faq">FAQs</Link>
-                              </li>
-                              <li>
-                                <Link to="/pricing">Pricing</Link>
+                                <Link to="/roboty-drogowe">Roboty drogowe</Link>
                               </li>
                             </ul>
                           </li>
-
-                          <li className="nav-item smooth-menu">
-                            <Link
-                              to="/services"
+                          {/* <Link
+                              to="/uslugi"
                               onMouseEnter={() => setActiveMenu("services")}
                               className={`nav-link ${
                                 activeMenu === "services" ? "active" : ""
                               }`}
                             >
-                              Services
-                            </Link>
-                          </li>
+                              Usługi
 
-                          <li className="nav-item">
+                            </Link>*/}
+
+                          
+
+                          <li className="nav-item smooth-menu">
                             <a
                               onMouseEnter={() => setActiveMenu("projects")}
                               className={`nav-link ${
@@ -124,49 +111,27 @@ const HeaderArea: React.FC = () => {
                               }`}
                               href="#"
                             >
-                              Projects
+                              Realizacje
                               <span className="sub-nav-toggler"> </span>
                             </a>
                             <ul className="sub-menu">
                               <li>
-                                <Link to="/projects">Projects</Link>
+                                <Link to="/projects">Projekty</Link>
                               </li>
                               <li>
-                                <Link to="/project/p1">Project Details</Link>
+                                <Link to="/project/p1">Szczegóły projektów</Link>
                               </li>
                             </ul>
                           </li>
-
-                          <li className="nav-item">
-                            <a
-                              onMouseEnter={() => setActiveMenu("blogs")}
-                              className={`nav-link ${
-                                activeMenu === "blogs" ? "active" : ""
-                              }`}
-                              href="#"
-                            >
-                              Blogs
-                              <span className="sub-nav-toggler"> </span>
-                            </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/blogs">Blogs</Link>
-                              </li>
-                              <li>
-                                <Link to="/blog/b1">Blog Details</Link>
-                              </li>
-                            </ul>
-                          </li>
-
                           <li className="nav-item smooth-menu">
                             <Link
-                              to="/contact"
+                              to="/kontakt"
                               onMouseEnter={() => setActiveMenu("contact")}
                               className={`nav-link ${
                                 activeMenu === "contact" ? "active" : ""
                               }`}
                             >
-                              Contact
+                              Kontakt
                             </Link>
                           </li>
                         </ul>

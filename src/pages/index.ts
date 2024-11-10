@@ -10,3 +10,7 @@ export { default as Projects } from "./Projects";
 export { default as ProjectDetails } from "./ProjectDetails";
 export { default as Services } from "./Services";
 export { default as Team } from "./Team";
+export { default as ProdukcjaBetonu } from './ProdukcjaBetonu';
+export { default as RobotyZiemne } from './RobotyZiemne';
+export { default as RobotyDrogowe } from './RobotyDrogowe';
+
