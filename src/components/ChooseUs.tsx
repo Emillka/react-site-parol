@@ -18,7 +18,7 @@ const ChooseUs: React.FC = () => {
                     We only provide top <b>industrial</b> services
                   </h3>
                 </div>
-                <Link to="/about" className="main-btn">
+                <Link to="/o-nas" className="main-btn">
                   Know More
                 </Link>
               </div>

@@ -28,22 +28,25 @@
       "id": "s4",
       "img": "/assets/img/service/4.jpg",
       "icon": "flaticon-production",
-      "heading": "Construction Industry",
-      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor"
+      "heading": "Roboty rozbiórkowe",
+      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor",
+      "link": "/roboty-rozbiorkowe"
     },
     {
       "id": "s5",
       "img": "/assets/img/service/5.jpg",
       "icon": "flaticon-crane",
-      "heading": "Civil Engineering",
-      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor"
+      "heading": "Wypożyczenie maszyn budowlanych",
+      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor",
+      "link": "/wypozyczenie-maszyn-budowlanych"
     },
     {
       "id": "s6",
       "img": "/assets/img/service/6.jpg",
       "icon": "flaticon-drilling-machine",
-      "heading": "Mechanical Engineering",
-      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor"
+      "heading": "Sprzedaż kruszców",
+      "title": "There are some reason build erit a augue insuned image pellen simply freede in the site lorem ipsum dolor",
+      "link": "/sprzedaz-kruszcow"
     }
   ]
 }

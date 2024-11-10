@@ -20,7 +20,7 @@ const OffCanvas: React.FC<props> = ({ setShowOffcanvas, showOffcanvas }) => {
         </div>
         <div className="side-info">
           <div className="contact-list mb-40">
-            <h4>About Us</h4>
+            <h4>O nas</h4>
             <p>
               We must explain to you how all seds this mistakens idea off
               denouncing pleasures and praising pain was born and I will give

@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <h5>Links</h5>
               <ul>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/o-nas">O nas</Link>
                   <Link to="/uslugi">Usługi</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/pricing">Pricing</Link>

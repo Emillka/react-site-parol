@@ -13,4 +13,8 @@ export { default as Team } from "./Team";
 export { default as ProdukcjaBetonu } from './ProdukcjaBetonu';
 export { default as RobotyZiemne } from './RobotyZiemne';
 export { default as RobotyDrogowe } from './RobotyDrogowe';
+export { default as RobotyRozbiorkowe } from './RobotyRozbiorkowe';
+export { default as Wypozyczalnia } from './Wypozyczalnia';
+export { default as Realizacje } from './Realizacje';
+
 

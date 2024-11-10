@@ -78,7 +78,7 @@ const About2: React.FC = () => {
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
-                        <Link to="/about" className="main-btn">
+                        <Link to="/o-nas" className="main-btn">
                           Czytaj więcej
                         </Link>
                       </div>

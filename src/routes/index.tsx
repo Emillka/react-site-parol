@@ -5,6 +5,7 @@ import {
   ProdukcjaBetonu,
   RobotyZiemne,
   RobotyDrogowe,
+  Wypozyczalnia,
   About,
   Contact,
   Projects,
@@ -15,9 +16,12 @@ import {
   BlogDetails,
   FAQ,
   Pricing,
+  RobotyRozbiorkowe,
+  Realizacje
 } from "../pages";
 import { ErrorPage } from "../components";
 import { Default } from "../Layout";
+import SprzedazKruszcow from "../pages/SprzedazKruszcow";
 
 export const router = createBrowserRouter([
   {
@@ -50,12 +54,32 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
+        path: "/roboty-rozbiorkowe",
+        element: <RobotyRozbiorkowe />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/wypozyczenie-maszyn-budowlanych",
+        element: <Wypozyczalnia />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/sprzedaz-kruszcow",
+        element: <SprzedazKruszcow />, 
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/realizacje",
+        element: <Realizacje />, 
+        errorElement: <ErrorPage />,
+      },
+      {
         path: "/kontakt",
         element: <Contact />,
         errorElement: <ErrorPage />,
       },
       {
-        path: "/about",
+        path: "/o-nas",
         element: <About />,
         errorElement: <ErrorPage />,
       },

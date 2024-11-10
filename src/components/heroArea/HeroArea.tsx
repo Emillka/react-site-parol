@@ -68,7 +68,7 @@ const HeroArea: React.FC<Props> = ({ type }) => {
                           {item?.title?.t2}
                         </p>
                       </div>
-                      <Link to="/about" className="main-btn">
+                      <Link to="/o-nas" className="main-btn">
                         Czytaj więcej
                       </Link>
                     </div>

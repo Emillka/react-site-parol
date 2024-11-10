@@ -65,7 +65,18 @@ const HeaderArea: React.FC = () => {
                               <span className="sub-nav-toggler"> </span>
                             </a>
                           </li>
-
+                          
+                          <li className="nav-item smooth-menu">
+                            <Link
+                              to="/o-nas"
+                              onMouseEnter={() => setActiveMenu("about")}
+                              className={`nav-link ${
+                                activeMenu === "about" ? "active" : ""
+                              }`}
+                            >
+                              O nas
+                            </Link>
+                          </li>
 
                           <li className="nav-item smooth-menu">
                           <a
@@ -88,6 +99,15 @@ const HeaderArea: React.FC = () => {
                               <li>
                                 <Link to="/roboty-drogowe">Roboty drogowe</Link>
                               </li>
+                              <li>
+                                <Link to="/roboty-rozbiorkowe">Roboty rozbiórkowe</Link>
+                              </li>
+                              <li>
+                                <Link to="/wypozyczenie-maszyn-budowlanych">Wypożyczenie maszyn budowlanych</Link>
+                              </li>
+                              <li>
+                                <Link to="/sprzedaz-kruszcow">Sprzedaż kruszców</Link>
+                              </li>
                             </ul>
                           </li>
                           {/* <Link
@@ -109,20 +129,13 @@ const HeaderArea: React.FC = () => {
                               className={`nav-link ${
                                 activeMenu === "projects" ? "active" : ""
                               }`}
-                              href="#"
+                              href="/realizacje"
                             >
                               Realizacje
                               <span className="sub-nav-toggler"> </span>
                             </a>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link to="/projects">Projekty</Link>
-                              </li>
-                              <li>
-                                <Link to="/project/p1">Szczegóły projektów</Link>
-                              </li>
-                            </ul>
                           </li>
+
                           <li className="nav-item smooth-menu">
                             <Link
                               to="/kontakt"

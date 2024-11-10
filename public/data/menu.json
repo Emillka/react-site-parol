@@ -18,38 +18,6 @@
       ]
     },
     {
-      "id": "m2",
-      "text": "Pages",
-      "link": "#",
-      "dropdown": [
-        {
-          "id": "p1",
-          "text": "About",
-          "link": "/about"
-        },
-        {
-          "id": "p2",
-          "text": "Usługi",
-          "link": "/uslugi"
-        },
-        {
-          "id": "p3",
-          "text": "Team",
-          "link": "/team"
-        },
-        {
-          "id": "p4",
-          "text": "FAQs",
-          "link": "/faq"
-        },
-        {
-          "id": "p5",
-          "text": "Pricing",
-          "link": "/pricing"
-        }
-      ]
-    },
-    {
       "id": "m3",
       "text": "Services",
       "link": "#",
@@ -68,7 +36,23 @@
         "id": "h3",
         "text": "Roboty drogowe",
         "link": "/roboty-drogowe"
+      },
+      {
+        "id": "h4",
+        "text": "Roboty rozbiórkowe",
+        "link": "/roboty-rozbiorkowe"
+      },
+      {
+        "id": "h5",
+        "text": "Wypożyczenie maszyn budowlanych",
+        "link": "/wypozyczenie-maszyn-budowlanych"
+      },
+      {
+        "id": "h6",
+        "text": "Sprzedaż kruszców",
+        "link": "/sprzedaz-kruszcow"
       }
+
     ]
     },
     {
@@ -85,23 +69,6 @@
           "id": "c2",
           "text": "Project Details",
           "link": "/project/p1"
-        }
-      ]
-    },
-    {
-      "id": "m5",
-      "text": "Blogs",
-      "link": "#",
-      "dropdown": [
-        {
-          "id": "b1",
-          "text": "Blogs",
-          "link": "/blog"
-        },
-        {
-          "id": "b2",
-          "text": "Blog Details",
-          "link": "/blog/b1"
         }
       ]
     },
