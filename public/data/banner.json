@@ -1,0 +1,56 @@
+{
+  "banner": [
+    {
+      "id": "b1",
+      "img": "/assets/img/slider/2.jpg",
+      "heading": "We provide best satisfied work",
+      "motive": {
+        "m1": "We turn vision",
+        "m2": "Factory Solutions"
+      },
+      "title": {
+        "t1": "Industrial Revolution, in modern history, the process of change from an agrarian",
+        "t2": "and handicraft economy to one dominated by industry and machine manufacturing."
+      }
+    },
+    {
+      "id": "b2",
+      "img": "/assets/img/slider/3.jpg",
+      "heading": "We provide best satisfied work",
+      "motive": {
+        "m1": "We turn vision",
+        "m2": "Factory Solutions"
+      },
+      "title": {
+        "t1": "Industrial Revolution, in modern history, the process of change from an agrarian",
+        "t2": "and handicraft economy to one dominated by industry and machine manufacturing."
+      }
+    },
+    {
+      "id": "b3",
+      "img": "/assets/img/slider/8.jpg",
+      "heading": "We provide best satisfied work",
+      "motive": {
+        "m1": "We turn vision",
+        "m2": "Factory Solutions"
+      },
+      "title": {
+        "t1": "Industrial Revolution, in modern history, the process of change from an agrarian",
+        "t2": "and handicraft economy to one dominated by industry and machine manufacturing."
+      }
+    },
+    {
+      "id": "b4",
+      "img": "/assets/img/slider/7.jpg",
+      "heading": "We provide best satisfied work",
+      "motive": {
+        "m1": "We turn vision",
+        "m2": "Factory Solutions"
+      },
+      "title": {
+        "t1": "Industrial Revolution, in modern history, the process of change from an agrarian",
+        "t2": "and handicraft economy to one dominated by industry and machine manufacturing."
+      }
+    }
+  ]
+}
